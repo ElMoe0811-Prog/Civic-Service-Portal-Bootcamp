@@ -1,0 +1,12 @@
+#Ignore heavy frontend packages
+node_modules/
+dist/
+
+#Ignore Python background environments and caches
+__pycache__/
+.venv/
+env/
+*.pyc
+
+#Ignore local environmental secret keys and passwords
+.env
